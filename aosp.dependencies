@@ -1,0 +1,26 @@
+[
+  {
+    "remote":        "purenexus-mod",
+    "repository":    "PureNexusProject-Mod/android_device_leeco_s2",
+    "target_path":   "device/leeco/s2",
+    "branch":        "n-mr2"
+  },
+  {
+    "remote":        "github",
+    "repository":    "LineageOS/android_device_qcom_common",
+    "target_path":   "device/qcom/common",
+    "branch":        "cm-14.1"
+  },
+  {
+    "remote":        "github",
+    "repository":    "LineageOS/android_kernel_leeco_msm8976",
+    "target_path":   "kernel/leeco/msm8976",
+    "branch":        "cm-14.1"
+},
+  {
+    "remote":        "github",
+    "repository":    "LineageOS/android_hardware_sony_thermanager",
+    "target_path":   "hardware/sony/thermanager",
+    "branch":        "cm-14.1"
+  }
+]
