@@ -80,8 +80,8 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 # Init
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
-TARGET_INIT_VENDOR_LIB := libinit_s2
-TARGET_RECOVERY_DEVICE_MODULES := libinit_s2
+# TARGET_INIT_VENDOR_LIB := libinit_s2
+# TARGET_RECOVERY_DEVICE_MODULES := libinit_s2
 
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
@@ -91,16 +91,16 @@ CM_POWERHAL_EXTENSION := qcom
 TARGET_POWERHAL_SET_INTERACTIVE_EXT := device/leeco/s2/power/power_ext.c
 
 # RIL
-BOARD_PROVIDES_LIBRIL := true
-TARGET_RIL_VARIANT := caf
+# BOARD_PROVIDES_LIBRIL := true
+# TARGET_RIL_VARIANT := caf
 
 # Adreno
 HAVE_ADRENO_SOURCE:= false
 OVERRIDE_RS_DRIVER:= libRSDriver_adreno.so
 
 # Audio
-BOARD_USES_ALSA_AUDIO := true
-USE_CUSTOM_AUDIO_POLICY := 1
+# BOARD_USES_ALSA_AUDIO := true
+# USE_CUSTOM_AUDIO_POLICY := 1
 BOARD_SUPPORTS_SOUND_TRIGGER := true
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
 AUDIO_FEATURE_ENABLED_KPI_OPTIMIZE := true
@@ -116,8 +116,8 @@ QCOM_BT_USE_BTNV := true
 QCOM_BT_USE_SMD_TTY := true
 
 # Camera
-USE_DEVICE_SPECIFIC_CAMERA := true
-BOARD_QTI_CAMERA_32BIT_ONLY := true
+# USE_DEVICE_SPECIFIC_CAMERA := true
+# BOARD_QTI_CAMERA_32BIT_ONLY := true
 
 # This is needed for us as it disables tcache, which is breaking camera.
 MALLOC_SVELTE := true
@@ -223,8 +223,8 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Sepolicy
-BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
-include device/qcom/sepolicy/sepolicy.mk
+# BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
+# include device/qcom/sepolicy/sepolicy.mk
 
 # OTA Assert
 TARGET_OTA_ASSERT_DEVICE := s2,le_s2,le_s2_ww

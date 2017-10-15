@@ -160,7 +160,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     gralloc.msm8952 \
     copybit.msm8952 \
-    hwcomposer.msm8952 \
+#   hwcomposer.msm8952 \
     memtrack.msm8952
 
 # Display / OpenGLES
@@ -268,15 +268,15 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    libcnefeatureconfig \
-    librmnetctl \
-    libxml2 \
-    libqsap_sdk \
-    telephony-ext \
-    libminui
+#   libcnefeatureconfig \
+#   librmnetctl \
+#   libxml2 \
+#   libqsap_sdk \
+#   telephony-ext \
+#   libminui
 
-PRODUCT_BOOT_JARS += \
-    telephony-ext
+# PRODUCT_BOOT_JARS += \
+#   telephony-ext
 
 # Sensors
 PRODUCT_COPY_FILES += \

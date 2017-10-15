@@ -22,7 +22,6 @@
 #include <telephony/ril_cdma_sms.h>
 #include <telephony/ril_nv_items.h>
 #include <telephony/ril_msim.h>
-
 #ifndef FEATURE_UNIT_TEST
 #include <sys/time.h>
 #endif /* !FEATURE_UNIT_TEST */
@@ -88,7 +87,7 @@ extern "C" {
 #define CDMA_NUMBER_INFO_BUFFER_LENGTH 81
 
 #define MAX_RILDS 3
-#define MAX_SOCKET_NAME_LENGTH 6
+#define MAX_SERVICE_NAME_LENGTH 6
 #define MAX_CLIENT_ID_LENGTH 2
 #define MAX_DEBUG_SOCKET_NAME_LENGTH 12
 #define MAX_QEMU_PIPE_NAME_LENGTH  11
