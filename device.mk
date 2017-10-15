@@ -80,7 +80,7 @@ PRODUCT_PACKAGES += \
     libaudio-resampler \
     libqcompostprocbundle \
     libqcomvisualizer \
-    libqcomvoiceprocessing \
+#   libqcomvoiceprocessing \
     libqcomvoiceprocessingdescriptors \
     libtinyalsa \
     libtinycompress \
