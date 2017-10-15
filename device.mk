@@ -73,7 +73,7 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    audiod \
+#   audiod \
     audio.a2dp.default \
     audio.r_submix.default \
     audio.usb.default \
@@ -215,8 +215,8 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    gps.msm8952 \
-    libcurl
+#   gps.msm8952 \
+#   libcurl
 
 PRODUCT_PACKAGES += \
     flp.conf \
