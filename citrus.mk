@@ -28,3 +28,7 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model
 
 # Release name
 PRODUCT_RELEASE_NAME := s2
+
+# Citrus-CAF LeEco Le 2 Maintainer
+PRODUCT_BUILD_PROP_OVERRIDES += \
+DEVICE_MAINTAINERS="Rahul (Rk585)"
