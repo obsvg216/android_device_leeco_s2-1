@@ -147,6 +147,7 @@
 
     <!-- If enabled, capacitive keys will only light up when pressed.
          Otherwise, the buttons will light up whenever the user interacts with the device -->
+    <add-resource type="bool" name="config_buttonLightOnKeypressOnly"></add-resource>
     <bool name="config_buttonLightOnKeypressOnly">true</bool>
 
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
@@ -328,6 +329,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
+    <add-resource type="integer" name="config_deviceHardwareWakeKeys"></add-resource>
     <integer name="config_deviceHardwareWakeKeys">64</integer>
     
     <!-- Defines the system property to set for performance profile xe: sys.cpu.modes. Leave it
