@@ -28,5 +28,9 @@
     "repository":    "TheMuppets/proprietary_vendor_leeco",
     "target_path":   "vendor/leeco",
     "branch":        "cm-14.1"
+  },
+  {
+    "repository": "android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings"
   }
 ]
